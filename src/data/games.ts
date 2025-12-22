@@ -31,7 +31,7 @@ export const games: Game[] = [
     slug: "Dica a Dica",
     title: "Dica a Dica",
     description: "Ajude o seu amigo a descobrir a palavra com dicas!",
-    url: "https://cidadedorme.lovable.app/",
+    url: "https://dicaadica.lovable.app",
     cover:"/covers/Dica_a_Dica.jpg",
     tags: ["party", "social", "mobile"],
     featured: true,
