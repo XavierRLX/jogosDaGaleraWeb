@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "XGames Web",
+  title: "JG Web",
   description: "Sua coleção de jogos web para jogar com amigos.",
 };
 
