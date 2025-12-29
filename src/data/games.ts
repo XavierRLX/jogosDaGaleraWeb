@@ -1,3 +1,12 @@
+export type Game = {
+  slug: string;
+  title: string;
+  description: string;
+  url: string;
+  cover?: string;      
+  tags?: string[];
+  featured?: boolean;
+};
 export const games: Game[] = [
   {
     slug: "impostor-da-palavra",
@@ -20,7 +29,7 @@ export const games: Game[] = [
   {
     slug: "Dica a Dica",
     title: "Dica a Dica",
-    description: "Dê dicas geniais… aqui éum time apenas.",
+    description: "Dê dicas geniais para o seu amigo, está tudo mundo junto. ",
     url: "https://dicaadica.lovable.app",
     cover:"/covers/Dica_a_Dica.jpg",
     tags: ["party", "social", "mobile"],
@@ -29,7 +38,7 @@ export const games: Game[] = [
   {
     slug: "Quem sou eu ?!",
     title: "Quem sou eu ?!",
-    description: "Quem é você? Seus amigos decidiram. Boa sorte aí.",
+    description: "Seu segredo? Seus amigos decidiram. Boa sorte aí.",
     url: "https://quemsoueuweb.lovable.app",
     cover:"/covers/quem_sou_eu.jpg",
     tags: ["party", "social", "mobile"],
