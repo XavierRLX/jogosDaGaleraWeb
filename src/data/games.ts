@@ -73,7 +73,7 @@ export const games: Game[] = [
     featured: false,
   },
 {
-    slug: "Mimica,
+    slug: "Mimica",
     title: "Mimica",
     description: "Será que imitação é boa?",
     url: "https://mimicaweb.lovable.app",
