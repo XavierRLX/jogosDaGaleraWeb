@@ -80,4 +80,22 @@ export const games: Game[] = [
     tags: ["party", "social", "mobile"],
     featured: false,
   },
-];
+   {
+    slug: "Taboo",
+    title: "Taboo",
+    description: "Jogos da palavra proibidas",
+    url: "https://tabooweb.lovable.app/",
+    cover:"/covers/taboo.jpg",
+    tags: ["party", "social", "mobile"],
+    featured: false,
+  },
+   {
+    slug: "Damas",
+    title: "Damas",
+    description: "O jogo classico de tabuleiro",
+    url: "https://damasweb.lovable.app/",
+    cover:"/covers/damas.jpg",
+    tags: ["party", "social", "mobile"],
+    featured: false,
+  },
+  ];
